@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -76,6 +80,7 @@ address {
 }
 
 .logo {
+    display: inline-block;
     color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
@@ -92,8 +97,11 @@ address {
 }
 
 .container {
-    width: 100%;
-    max-width: 1128px;
+    /*width: 100%;*/
+    /*max-width: 1128px;*/
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .hero {
@@ -120,6 +128,7 @@ address {
 }
 
 .button {
+    min-width: 169px;
     background-color: #4D5AE5;
     padding: 16px 32px;
     font-size: 16px;
@@ -128,6 +137,7 @@ address {
     color: #FFFFFF;
     cursor: pointer;
     border: none;
+    border-radius: 4px;
 }
 
 section {
@@ -182,6 +192,7 @@ section p {
 .card img {
     object-fit: contain;
     display: block;
+    width: 100%;
 }
 
 .card-content {
@@ -193,6 +204,10 @@ section p {
 
 .team {
     background-color: #F4F4FD;
+}
+
+.portfolio ul {
+    row-gap: 48px;
 }
 
 .portfolio ul li {
@@ -217,8 +232,9 @@ section p {
     margin-bottom: 16px;
 }
 
-.footer p {
+.footer--text {
     font-size: 16px;
     line-height: 24px;
     color: #F4F4FD;
+    max-width: 264px
 }
