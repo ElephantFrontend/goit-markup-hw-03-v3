@@ -220,7 +220,7 @@ section ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px 0;
+    padding: 32px 16px
 }
 
 .team {
@@ -236,7 +236,8 @@ section ul li {
 }
 
 .portfolio-list .card {
-    flex: 0 1 calc((100% - 54px) / 3);
+    /*flex: 0 1 calc((100% - 54px) / 3);*/
+    flex: calc((100% - 48px) / 3);
     box-shadow: none;
 }
 
