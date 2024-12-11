@@ -220,15 +220,11 @@ section ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team {
     background-color: #F4F4FD;
-}
-
-.team .container {
-    padding: 32px 0;
 }
 
 .team .subtitle, .team .main-text {
@@ -247,6 +243,7 @@ section ul li {
 .portfolio .card-content {
     align-items: start;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .footer {
