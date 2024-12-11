@@ -242,11 +242,11 @@ section ul li {
 .portfolio-list .card {
     flex: 0 1 calc((100% - 54px) / 3);
     box-shadow: none;
-    border: 1px solid #E7E9FC;
 }
 
 .portfolio .card-content {
     align-items: start;
+    border: 1px solid #E7E9FC;
 }
 
 .footer {
