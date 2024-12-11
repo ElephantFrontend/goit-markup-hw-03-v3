@@ -179,6 +179,7 @@ section {
     font-weight: 500;
     line-height: 24px;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 section ul {
@@ -196,7 +197,7 @@ section ul li {
 }
 
 .main-text {
-    margin: 8px 0 0 0;
+    margin: 0;
 }
 
 .card {
@@ -206,7 +207,7 @@ section ul li {
     overflow: hidden;
 }
 
-.card img {
+.card-img {
     object-fit: contain;
     display: block;
     width: 100%;
@@ -223,11 +224,15 @@ section ul li {
     background-color: #F4F4FD;
 }
 
-.portfolio ul {
+.team .subtitle, .team .main-text {
+    text-align: center;
+}
+
+.portfolio-list {
     row-gap: 48px;
 }
 
-.portfolio ul li {
+.portfolio-list .card {
     flex: 0 1 calc((100% - 54px) / 3);
     box-shadow: none;
     border: 1px solid #E7E9FC;
